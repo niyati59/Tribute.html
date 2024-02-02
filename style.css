@@ -1,0 +1,45 @@
+body {
+    background-color: #c62121;
+    color: #ffffff;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #00ff00; 
+  }
+  
+  img {
+    width: 400px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    animation: pulsate 2s infinite;
+  }
+  
+  @keyframes pulsate {
+    0% {
+      box-shadow: 0 0 20px rgb(0, 255, 195); 
+    }
+    50% {
+      box-shadow: 0 0 80px rgb(0, 162, 255); 
+    }
+    100% {
+      box-shadow: 0 0 20px rgba(0, 255, 195, 0.8); 
+    }
+  }
+  
+  main {
+    text-align: center;
+    color: #ffffff; 
+  }
+  
+  footer {
+    text-align: center;
+    color: #999999;
+  }
+  
